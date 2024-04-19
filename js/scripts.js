@@ -1,7 +1,4 @@
-/*!
-* Start Bootstrap - Personal v1.0.1 (https://startbootstrap.com/template-overviews/personal)
-* Copyright 2013-2023 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-personal/blob/master/LICENSE)
-*/
-// This file is intentionally blank
-// Use this file to add JavaScript to your project
+const dynamic_year = document.getElementById("dynamic-year");
+let current_date = new Date();
+
+dynamic_year.innerHTML = current_date.getFullYear();
