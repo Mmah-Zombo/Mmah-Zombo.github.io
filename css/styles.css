@@ -11740,3 +11740,8 @@ html {
     left: -2vw;
   }
 }
+
+/* Custom CSS */
+.bg-black {
+  background: #000;
+}
