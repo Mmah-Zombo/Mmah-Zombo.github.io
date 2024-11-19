@@ -16,11 +16,12 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="css/animations.css">
     </head>
     <body class="d-flex flex-column h-100 bg-light">
         <main class="flex-shrink-0">
             <!-- Navigation-->
-            <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 flip-in-hor-bottom">
                 <div class="container px-5">
                     <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">M'mah Zombo</span></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -35,7 +36,7 @@
                 </div>
             </nav>
             <!-- Projects Section-->
-            <section class="py-5">
+            <section class="py-5 fade-in-bottom">
                 <div class="container px-5 mb-5">
                     <div class="text-center mb-5">
                         <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Projects</span></h1>
@@ -58,6 +59,21 @@
                             </a>
 
                             <!-- Project Card 2-->
+                            <a href="https://climate-call-app.onrender.com/" class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <div class="d-flex flex-column align-items-center">
+                                        <img class="img-fluid" src="./assets/climate-call.png" alt="Climate Call App" />
+                                        <div class="p-5">
+                                            <h2 class="fw-bolder">Climate Call</h2>
+                                            <p>This is the version 2 of the Save your home weather app with more features and functionalities. Built with PHP, JavaScript, Laravel, Tailwindcss, MySQL.</p>
+                                            <p><b>Some Features</b>: Search Bar, search history, search results list, user authentication and authorization, community chat that supports comments, plantcare guide etc.</p>
+                                            <p>Click this card to view this app.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <!-- Project Card 3-->
                             <a href="https://binaryconverter.onrender.com/" class="card overflow-hidden shadow rounded-4 border-0 mb-5">
                                 <div class="card-body p-0">
                                     <div class="d-flex flex-column align-items-center">
@@ -66,21 +82,6 @@
                                             <h2 class="fw-bolder">BitConvert Pro</h2>
                                             <p>BitConvert Pro is a web application designed and built to convert binary numbers into decimal, hexadecimal and octal numbers. It's a team project developed in year one semester two.</p>
                                             <p><b>Key Features</b>: Binary conversion system, search history, user authentication and authorization.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-
-                            <!-- Project Card 3-->
-                            <a href="https://github.com/Mmah-Zombo/CourseManagementSystem" class="card overflow-hidden shadow rounded-4 border-0 mb-5">
-                                <div class="card-body p-0">
-                                    <div class="d-flex flex-column align-items-center">
-                                        <img class="img-fluid" src="./assets/cms.png" alt="Limkokwing Course Management System"/>
-                                        <div class="p-5">
-                                            <h2 class="fw-bolder">Limkokwing CMS</h2>
-                                            <p>Limkokwing Course Management System (CMS) is a web application designed and built to help the adminstrative staff of Limkokwing University create and manage courses, and to help students enroll for those course and keep track of them online. It's a team project developed in year one semester two.</p>
-                                            <p><b>Key Features</b>: Listing Search Bar, property management system, property vetting system, user authentication and authorization</p>
-                                            <p>Click this card to find out more.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -103,19 +104,20 @@
                             </a>
 
                             <!-- Project Card 5-->
-                            <a href="https://github.com/Mmah-Zombo/Climate-Call-App" class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                            <a href="https://github.com/Mmah-Zombo/CourseManagementSystem" class="card overflow-hidden shadow rounded-4 border-0 mb-5">
                                 <div class="card-body p-0">
                                     <div class="d-flex flex-column align-items-center">
-                                        <img class="img-fluid" src="./assets/climate-call.png" alt="Climate Call App" />
+                                        <img class="img-fluid" src="./assets/cms.png" alt="Limkokwing Course Management System"/>
                                         <div class="p-5">
-                                            <h2 class="fw-bolder">Climate Call</h2>
-                                            <p>This is the version 2 of the Save your home weather app with more features and functionalities. Built with PHP, JavaScript, Laravel, Tailwindcss, MySQL.</p>
-                                            <p><b>Some Features</b>: Search Bar, search history, search results list, user authentication and authorization, community chat that supports comments, plantcare guide etc.</p>
+                                            <h2 class="fw-bolder">Limkokwing CMS</h2>
+                                            <p>Limkokwing Course Management System (CMS) is a web application designed and built to help the adminstrative staff of Limkokwing University create and manage courses, and to help students enroll for those course and keep track of them online. It's a team project developed in year one semester two.</p>
+                                            <p><b>Key Features</b>: Listing Search Bar, property management system, property vetting system, user authentication and authorization</p>
                                             <p>Click this card to find out more.</p>
                                         </div>
                                     </div>
                                 </div>
                             </a>
+
 
                             <!-- Project Card 6-->
                             <a href="https://mmah-zombo.github.io/Mini-Calculator/" class="card overflow-hidden shadow rounded-4 border-0">
