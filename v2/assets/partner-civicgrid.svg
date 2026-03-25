@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 120" role="img" aria-labelledby="title">
+  <title>CivicGrid</title>
+  <rect width="320" height="120" rx="24" fill="#fff6f8"/>
+  <path d="M44 40h56v40H44z" fill="#f2c8d9"/>
+  <path d="M44 54h56M58 40v40M72 40v40M86 40v40" stroke="#2e2b24" stroke-width="4"/>
+  <text x="120" y="56" fill="#2e2b24" font-family="Arial, sans-serif" font-size="28" font-weight="700">CivicGrid</text>
+  <text x="120" y="82" fill="#7b6f63" font-family="Arial, sans-serif" font-size="14">Public sector partner</text>
+</svg>

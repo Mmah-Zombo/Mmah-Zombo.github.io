@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 120" role="img" aria-labelledby="title">
+  <title>LogiHub</title>
+  <rect width="320" height="120" rx="24" fill="#fff7ea"/>
+  <path d="M46 70h48l12-20H58z" fill="#c7e6db"/>
+  <circle cx="62" cy="82" r="8" fill="#2e2b24"/>
+  <circle cx="96" cy="82" r="8" fill="#2e2b24"/>
+  <text x="120" y="56" fill="#2e2b24" font-family="Arial, sans-serif" font-size="28" font-weight="700">LogiHub</text>
+  <text x="120" y="82" fill="#7b6f63" font-family="Arial, sans-serif" font-size="14">Logistics partner</text>
+</svg>

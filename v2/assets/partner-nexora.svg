@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 120" role="img" aria-labelledby="title">
+  <title>Nexora</title>
+  <rect width="320" height="120" rx="24" fill="#f4f8ff"/>
+  <path d="M50 80V40l20 18 20-18v40" fill="none" stroke="#2e2b24" stroke-width="6" stroke-linejoin="round"/>
+  <circle cx="70" cy="60" r="22" fill="none" stroke="#8fc7f2" stroke-width="8"/>
+  <text x="120" y="56" fill="#2e2b24" font-family="Arial, sans-serif" font-size="28" font-weight="700">Nexora</text>
+  <text x="120" y="82" fill="#7b6f63" font-family="Arial, sans-serif" font-size="14">Technology partner</text>
+</svg>
