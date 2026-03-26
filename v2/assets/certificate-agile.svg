@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 840">
+  <rect width="1200" height="840" rx="36" fill="#f2fbf7"/>
+  <rect x="32" y="32" width="1136" height="776" rx="28" fill="none" stroke="#decdb7" stroke-width="4"/>
+  <text x="100" y="150" fill="#8c7f72" font-family="Georgia, serif" font-size="34">Professional Certification</text>
+  <text x="100" y="260" fill="#2e2b24" font-family="Georgia, serif" font-size="78" font-weight="700">Agile Delivery</text>
+  <text x="100" y="338" fill="#6c6257" font-family="Arial, sans-serif" font-size="34">Awarded to Mmah Zombo for excellence in iterative delivery and engineering collaboration.</text>
+  <rect x="100" y="420" width="1000" height="180" rx="28" fill="#daf1e7"/>
+  <text x="140" y="500" fill="#2e2b24" font-family="Arial, sans-serif" font-size="42" font-weight="700">Credential Focus</text>
+  <text x="140" y="560" fill="#6c6257" font-family="Arial, sans-serif" font-size="30">Iterative planning, team collaboration, sustainable delivery, and workflow design.</text>
+  <path d="M970 160l82 38v82l-82 38-82-38v-82z" fill="#c7e6db"/>
+  <path d="M970 160v158M888 198l82 38 82-38" stroke="#2e2b24" stroke-width="12" stroke-linejoin="round"/>
+</svg>

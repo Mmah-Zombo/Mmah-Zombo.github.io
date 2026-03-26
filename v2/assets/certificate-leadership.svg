@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 840">
+  <rect width="1200" height="840" rx="36" fill="#fff6f8"/>
+  <rect x="32" y="32" width="1136" height="776" rx="28" fill="none" stroke="#decdb7" stroke-width="4"/>
+  <text x="100" y="150" fill="#8c7f72" font-family="Georgia, serif" font-size="34">Professional Certification</text>
+  <text x="100" y="260" fill="#2e2b24" font-family="Georgia, serif" font-size="78" font-weight="700">Technical Leadership</text>
+  <text x="100" y="338" fill="#6c6257" font-family="Arial, sans-serif" font-size="34">Awarded to Mmah Zombo for leadership in engineering direction, mentorship, and delivery.</text>
+  <rect x="100" y="420" width="1000" height="180" rx="28" fill="#f8dde7"/>
+  <text x="140" y="500" fill="#2e2b24" font-family="Arial, sans-serif" font-size="42" font-weight="700">Credential Focus</text>
+  <text x="140" y="560" fill="#6c6257" font-family="Arial, sans-serif" font-size="30">Mentorship, technical ownership, communication, and team leadership.</text>
+  <circle cx="970" cy="176" r="54" fill="#2e2b24"/>
+  <circle cx="900" cy="228" r="36" fill="#f2c8d9"/>
+  <circle cx="1040" cy="228" r="36" fill="#f2c8d9"/>
+</svg>

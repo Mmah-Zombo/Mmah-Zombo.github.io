@@ -37,3 +37,37 @@ if ("IntersectionObserver" in window && revealItems.length > 0) {
 } else {
   revealItems.forEach((item) => item.classList.add("is-visible"));
 }
+
+const certificateModal = document.querySelector("#certificate-modal");
+const certificateButtons = document.querySelectorAll(".cert-view-btn");
+const certificateTitle = document.querySelector("#certificate-modal-title");
+const certificateDescription = document.querySelector("#certificate-modal-description");
+const certificateImage = document.querySelector("#certificate-modal-image");
+
+if (certificateModal && certificateButtons.length > 0 && certificateTitle && certificateDescription && certificateImage) {
+  certificateButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      const title = button.dataset.certificateTitle || "Certificate preview";
+      const description = button.dataset.certificateDescription || "";
+      const image = button.dataset.certificateImage || "";
+
+      certificateTitle.textContent = title;
+      certificateDescription.textContent = description;
+      certificateImage.src = image;
+      certificateImage.alt = `${title} certificate preview`;
+
+      if (typeof certificateModal.showModal === "function") {
+        certificateModal.showModal();
+      } else {
+        certificateModal.setAttribute("open", "true");
+      }
+    });
+  });
+
+  certificateModal.addEventListener("click", (event) => {
+    const shell = certificateModal.querySelector(".certificate-modal-shell");
+    if (shell && !shell.contains(event.target)) {
+      certificateModal.close();
+    }
+  });
+}
