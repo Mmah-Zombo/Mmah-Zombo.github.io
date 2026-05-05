@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff8ee" />
+      <stop offset="100%" stop-color="#f3e7d3" />
+    </linearGradient>
+  </defs>
+  <rect width="960" height="640" rx="34" fill="url(#bg)" />
+  <rect x="36" y="36" width="888" height="568" rx="28" fill="none" stroke="#decdb7" stroke-width="4" />
+  <circle cx="182" cy="182" r="78" fill="#efc458" opacity="0.88" />
+  <circle cx="776" cy="472" r="64" fill="#8fc7f2" opacity="0.6" />
+  <rect x="118" y="140" width="724" height="120" rx="24" fill="#2e2b24" opacity="0.95" />
+  <text x="156" y="194" fill="#fff8ee" font-family="Arial, sans-serif" font-size="38" font-weight="700">Climate Call</text>
+  <text x="156" y="236" fill="#e8dcc7" font-family="Arial, sans-serif" font-size="22">Weather monitoring app with plant care guide and community chat</text>
+  <rect x="118" y="302" width="302" height="170" rx="24" fill="#fffdf8" stroke="#decdb7" stroke-width="3" />
+  <rect x="458" y="302" width="384" height="170" rx="24" fill="#fffdf8" stroke="#decdb7" stroke-width="3" />
+  <text x="152" y="354" fill="#8c7f72" font-family="Arial, sans-serif" font-size="20">Modules</text>
+  <text x="152" y="402" fill="#2e2b24" font-family="Arial, sans-serif" font-size="26" font-weight="700">Forecasts</text>
+  <text x="152" y="438" fill="#2e2b24" font-family="Arial, sans-serif" font-size="26" font-weight="700">Plant Guide</text>
+  <text x="152" y="474" fill="#2e2b24" font-family="Arial, sans-serif" font-size="26" font-weight="700">Community Chat</text>
+  <text x="492" y="354" fill="#8c7f72" font-family="Arial, sans-serif" font-size="20">Built during ALX Software Engineering training</text>
+  <text x="492" y="408" fill="#2e2b24" font-family="Arial, sans-serif" font-size="30" font-weight="700">Learning project</text>
+  <text x="492" y="452" fill="#6c6257" font-family="Arial, sans-serif" font-size="22">Focused on practical full-stack delivery</text>
+  <rect x="118" y="520" width="200" height="38" rx="19" fill="#2e2b24" />
+  <text x="152" y="546" fill="#fff8ee" font-family="Arial, sans-serif" font-size="18">Product build</text>
+</svg>

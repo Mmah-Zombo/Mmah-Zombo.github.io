@@ -54,7 +54,7 @@ if (certificateModal && certificateButtons.length > 0 && certificateTitle && cer
       certificateTitle.textContent = title;
       certificateDescription.textContent = description;
       certificateImage.src = image;
-      certificateImage.alt = `${title} certificate preview`;
+      certificateImage.alt = `${title} credential preview`;
 
       if (typeof certificateModal.showModal === "function") {
         certificateModal.showModal();

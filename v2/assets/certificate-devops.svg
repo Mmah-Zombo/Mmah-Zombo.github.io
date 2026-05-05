@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 840">
-  <rect width="1200" height="840" rx="36" fill="#fff7ea"/>
+  <rect width="1200" height="840" rx="36" fill="#fff8ee"/>
   <rect x="32" y="32" width="1136" height="776" rx="28" fill="none" stroke="#decdb7" stroke-width="4"/>
-  <text x="100" y="150" fill="#8c7f72" font-family="Georgia, serif" font-size="34">Professional Certification</text>
-  <text x="100" y="260" fill="#2e2b24" font-family="Georgia, serif" font-size="78" font-weight="700">DevOps Foundations</text>
-  <text x="100" y="338" fill="#6c6257" font-family="Arial, sans-serif" font-size="34">Awarded to Mmah Zombo for proficiency in automation, environments, and release practices.</text>
-  <rect x="100" y="420" width="1000" height="180" rx="28" fill="#f8ebc8"/>
-  <text x="140" y="500" fill="#2e2b24" font-family="Arial, sans-serif" font-size="42" font-weight="700">Credential Focus</text>
-  <text x="140" y="560" fill="#6c6257" font-family="Arial, sans-serif" font-size="30">Automation, deployment pipelines, environment consistency, and release reliability.</text>
-  <path d="M936 254h96M984 170v84" stroke="#2e2b24" stroke-width="16" stroke-linecap="round"/>
-  <path d="M948 204l36-36 36 36" fill="none" stroke="#efc458" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="100" y="150" fill="#8c7f72" font-family="Georgia, serif" font-size="34">Award Recognition</text>
+  <text x="100" y="260" fill="#2e2b24" font-family="Georgia, serif" font-size="72" font-weight="700">Women in GovStack Challenge</text>
+  <text x="100" y="338" fill="#6c6257" font-family="Arial, sans-serif" font-size="34">GovStack · 2nd Runner-Up · 2026</text>
+  <rect x="100" y="420" width="1000" height="180" rx="28" fill="#f3e7d3"/>
+  <text x="140" y="500" fill="#2e2b24" font-family="Arial, sans-serif" font-size="42" font-weight="700">Recognition</text>
+  <text x="140" y="560" fill="#6c6257" font-family="Arial, sans-serif" font-size="30">Technical lead for a DPI-based certificate retrieval and verification solution placed 3rd among 33 teams.</text>
+  <circle cx="1010" cy="180" r="72" fill="#efc458"/>
+  <path d="M1010 136l14 30 34 4-26 22 8 34-30-18-30 18 8-34-26-22 34-4z" fill="#2e2b24"/>
 </svg>
