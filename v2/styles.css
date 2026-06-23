@@ -273,7 +273,7 @@ h2 {
 }
 
 h1 {
-  font-size: clamp(2.5rem, 5.5vw + 1rem, 6.25rem);
+  font-size: clamp(2.15rem, 4.8vw + 0.85rem, 5.25rem);
   line-height: 1;
 }
 
@@ -443,6 +443,27 @@ h1 {
   inset: 82px 28px 44px 68px;
   z-index: 2;
   transform: rotate(-3deg);
+}
+
+.hero-window-main.hero-portrait {
+  inset: auto;
+  top: 38%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  width: min(88%, 390px);
+  max-width: 390px;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+}
+
+.hero-portrait .hero-profile {
+  width: 100%;
+  height: auto;
+  max-width: 390px;
+  aspect-ratio: 435 / 573;
+  object-fit: contain;
+  object-position: center top;
 }
 
 .hero-window-secondary {
@@ -1432,7 +1453,7 @@ h1 {
   }
 
   h1 {
-    font-size: clamp(2rem, 9vw, 2.85rem);
+    font-size: clamp(1.85rem, 8vw, 2.5rem);
     line-height: 1.05;
     letter-spacing: -0.02em;
   }
@@ -1517,6 +1538,23 @@ h1 {
     display: none;
   }
 
+  .hero-window-main.hero-portrait {
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: none;
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+  }
+
+  .hero-portrait .hero-profile {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    margin: 0 auto;
+  }
+
   .testimonial-grid {
     grid-template-columns: 1fr;
   }
@@ -1558,7 +1596,7 @@ h1 {
   }
 
   h1 {
-    font-size: clamp(1.85rem, 10vw, 2.35rem);
+    font-size: clamp(1.7rem, 9vw, 2.1rem);
   }
 
   .hero-actions {
