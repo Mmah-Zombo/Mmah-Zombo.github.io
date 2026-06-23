@@ -43,18 +43,40 @@ const certificateButtons = document.querySelectorAll(".cert-view-btn");
 const certificateTitle = document.querySelector("#certificate-modal-title");
 const certificateDescription = document.querySelector("#certificate-modal-description");
 const certificateImage = document.querySelector("#certificate-modal-image");
+const certificatePdf = document.querySelector("#certificate-modal-pdf");
+const certificateFrame = document.querySelector("#certificate-modal-frame");
 
-if (certificateModal && certificateButtons.length > 0 && certificateTitle && certificateDescription && certificateImage) {
+if (
+  certificateModal &&
+  certificateButtons.length > 0 &&
+  certificateTitle &&
+  certificateDescription &&
+  certificateImage &&
+  certificatePdf &&
+  certificateFrame
+) {
   certificateButtons.forEach((button) => {
     button.addEventListener("click", () => {
       const title = button.dataset.certificateTitle || "Certificate preview";
       const description = button.dataset.certificateDescription || "";
-      const image = button.dataset.certificateImage || "";
+      const source = button.dataset.certificateImage || "";
+      const isPdf = source.toLowerCase().endsWith(".pdf");
 
       certificateTitle.textContent = title;
       certificateDescription.textContent = description;
-      certificateImage.src = image;
-      certificateImage.alt = `${title} credential preview`;
+      certificateFrame.classList.toggle("is-pdf", isPdf);
+
+      if (isPdf) {
+        certificateImage.removeAttribute("src");
+        certificateImage.removeAttribute("alt");
+        certificatePdf.src = source;
+        certificatePdf.title = `${title} credential preview`;
+      } else {
+        certificatePdf.removeAttribute("src");
+        certificatePdf.removeAttribute("title");
+        certificateImage.src = source;
+        certificateImage.alt = `${title} credential preview`;
+      }
 
       if (typeof certificateModal.showModal === "function") {
         certificateModal.showModal();

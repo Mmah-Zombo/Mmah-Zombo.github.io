@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>M'Mah Zombo | Lead Software Engineer</title>
+    <title>M'mah Zombo | Lead Software Engineer</title>
     <meta
       name="description"
       content="Portfolio website for M'Mah Zombo, an award-winning lead software engineer building digital public infrastructure and fintech systems used by thousands of people across Sierra Leone."
@@ -101,7 +101,6 @@
             <span><span class="partner-pill">GovPay</span></span>
             <span><span class="partner-pill">TenkiPay</span></span>
             <span><span class="partner-pill">National Investment Board</span></span>
-            <span><span class="partner-pill">NPRA</span></span>
             <span><span class="partner-pill">SportsZone</span></span>
           </div>
           <div class="marquee-track marquee-track--clone" aria-hidden="true">
@@ -110,7 +109,6 @@
             <span><span class="partner-pill">GovPay</span></span>
             <span><span class="partner-pill">TenkiPay</span></span>
             <span><span class="partner-pill">National Investment Board</span></span>
-            <span><span class="partner-pill">NPRA</span></span>
             <span><span class="partner-pill">SportsZone</span></span>
           </div>
         </section>
@@ -413,7 +411,12 @@
           <div class="testimonial-grid">
             <article class="testimonial-card" data-reveal>
               <header>
-                <img src="assets/cert-product.svg" alt="Microsoft product management credential badge" />
+                <object
+                  class="cert-thumb cert-thumb-pdf"
+                  data="assets/Product-Management-Ceritifcate-Microsoft.pdf"
+                  type="application/pdf"
+                  aria-label="Microsoft Enterprise Product Management Fundamentals certificate"
+                ></object>
                 <div>
                   <h3>Enterprise Product Management Fundamentals</h3>
                   <p>Microsoft · 2026</p>
@@ -426,7 +429,7 @@
                 class="button button-secondary cert-view-btn"
                 type="button"
                 data-certificate-title="Enterprise Product Management Fundamentals"
-                data-certificate-image="assets/certificate-product.svg"
+                data-certificate-image="assets/Product-Management-Ceritifcate-Microsoft.pdf"
                 data-certificate-description="Microsoft professional education focused on enterprise product strategy, delivery, and stakeholder alignment."
               >
                 View credential
@@ -435,7 +438,11 @@
 
             <article class="testimonial-card" data-reveal>
               <header>
-                <img src="assets/cert-cloud.svg" alt="ALX software engineering nanodegree badge" />
+                <img
+                  class="cert-thumb"
+                  src="assets/Alx-Certification.png"
+                  alt="ALX Africa Software Engineering Nanodegree certificate"
+                />
                 <div>
                   <h3>Software Engineering Nanodegree</h3>
                   <p>ALX Africa · 2022 - 2023</p>
@@ -448,7 +455,7 @@
                 class="button button-secondary cert-view-btn"
                 type="button"
                 data-certificate-title="Software Engineering Nanodegree"
-                data-certificate-image="assets/certificate-cloud.svg"
+                data-certificate-image="assets/Alx-Certification.png"
                 data-certificate-description="ALX Africa nanodegree covering backend engineering, full-stack development, and production-ready software practice."
               >
                 View credential
@@ -457,7 +464,12 @@
 
             <article class="testimonial-card" data-reveal>
               <header>
-                <img src="assets/cert-agile.svg" alt="IBM artificial intelligence credential badge" />
+                <object
+                  class="cert-thumb cert-thumb-pdf"
+                  data="assets/Introduction-to-artificial-intelligence-IBM-certificate.pdf"
+                  type="application/pdf"
+                  aria-label="IBM Introduction to Artificial Intelligence certificate"
+                ></object>
                 <div>
                   <h3>Introduction to Artificial Intelligence</h3>
                   <p>IBM · 2022</p>
@@ -470,7 +482,7 @@
                 class="button button-secondary cert-view-btn"
                 type="button"
                 data-certificate-title="Introduction to Artificial Intelligence"
-                data-certificate-image="assets/certificate-agile.svg"
+                data-certificate-image="assets/Introduction-to-artificial-intelligence-IBM-certificate.pdf"
                 data-certificate-description="IBM coursework introducing machine learning, generative AI, natural language processing, and applied AI concepts."
               >
                 View credential
@@ -715,8 +727,9 @@
           <h2 id="certificate-modal-title">Certificate title</h2>
           <p id="certificate-modal-description">Certificate description</p>
         </div>
-        <div class="certificate-modal-frame">
+        <div class="certificate-modal-frame" id="certificate-modal-frame">
           <img id="certificate-modal-image" src="" alt="" />
+          <iframe id="certificate-modal-pdf" src="" title="Certificate preview"></iframe>
         </div>
       </form>
     </dialog>

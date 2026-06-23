@@ -490,12 +490,12 @@ h1 {
 .marquee-band {
   display: flex;
   overflow: hidden;
-  margin: 0 54px 18px;
+  margin: 0 0 18px;
   border-top: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
-  border-left: 1px solid var(--border);
-  border-right: 1px solid var(--border);
-  border-radius: 22px;
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
   background:
     linear-gradient(180deg, rgba(255, 255, 255, 0.72), rgba(255, 255, 255, 0.3)),
     rgba(252, 247, 237, 0.92);
@@ -1065,11 +1065,23 @@ h1 {
   gap: 14px;
 }
 
-.testimonial-card img {
-  width: 52px;
+.testimonial-card img,
+.testimonial-card object.cert-thumb {
+  width: 72px;
   height: 52px;
+  flex-shrink: 0;
+  border: 1px solid var(--border);
   border-radius: 12px;
-  object-fit: cover;
+  background: rgba(255, 255, 255, 0.84);
+}
+
+.testimonial-card img {
+  object-fit: contain;
+}
+
+.testimonial-card object.cert-thumb-pdf {
+  overflow: hidden;
+  pointer-events: none;
 }
 
 .testimonial-card p {
@@ -1261,9 +1273,27 @@ h1 {
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
 }
 
-.certificate-modal-frame img {
+.certificate-modal-frame img,
+.certificate-modal-frame iframe {
   width: 100%;
+}
+
+.certificate-modal-frame img {
+  display: block;
   height: auto;
+}
+
+.certificate-modal-frame iframe {
+  display: none;
+  height: min(72vh, 760px);
+  border: 0;
+}
+
+.certificate-modal-frame.is-pdf img {
+  display: none;
+}
+
+.certificate-modal-frame.is-pdf iframe {
   display: block;
 }
 
@@ -1372,7 +1402,7 @@ h1 {
   }
 
   .marquee-band {
-    margin: 0 24px 18px;
+    margin: 0 0 18px;
   }
 
   .demo-split {
@@ -1565,7 +1595,7 @@ h1 {
   }
 
   .marquee-band {
-    margin: 0 22px 10px;
+    margin: 0 0 10px;
   }
 
   .demo-split {
